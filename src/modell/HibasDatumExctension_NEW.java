@@ -1,15 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modell;
 
-/**
- *
- * @author 36204
- */
-class HibasDatumExctension_NEW extends Exception {
+public class HibasDatumExctension_NEW extends Exception {
 
     public HibasDatumExctension_NEW(String message) {
         super(message);

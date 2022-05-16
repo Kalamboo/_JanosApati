@@ -1,19 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modell;
 
+import java.io.Serializable;
 import java.text.Collator;
 import java.time.LocalDate;
 import java.util.Comparator;
-import java.util.Date;
 
-/**
- *
- * @author 36204
- */
 class KeszitoComparator implements Comparator<KiallitasiTargy_NEW>{
     @Override
     public int compare(KiallitasiTargy_NEW o1, KiallitasiTargy_NEW o2) {
@@ -30,7 +21,7 @@ class CimComparator implements Comparator<KiallitasiTargy_NEW>{
     }
 }
 
-public abstract class KiallitasiTargy_NEW {
+public abstract class KiallitasiTargy_NEW implements Serializable{
     private LocalDate datum;
     private String keszito, cim;
 
