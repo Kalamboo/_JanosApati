@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modell;
+package main;
 
 /**
  *
  * @author 36204
  */
-public abstract class KiallitasiTargy {
+public class Program_NEW {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

@@ -9,6 +9,10 @@ package modell;
  *
  * @author 36204
  */
-public class Galeria {
+class HibasDatumExctension_NEW extends Exception {
+
+    public HibasDatumExctension_NEW(String message) {
+        super(message);
+    }
     
 }
