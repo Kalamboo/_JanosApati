@@ -42,7 +42,8 @@ public class Festmeny_NEW extends KiallitasiTargy_NEW{
 
     @Override
     public String toString() {
-        return "Festmeny_NEW{" + "eleresiUt=" + eleresiUt + '}';
+        String os = super.toString();
+        return os + "Festmeny_NEW{" + "eleresiUt=" + eleresiUt + '}';
     }
     
     
